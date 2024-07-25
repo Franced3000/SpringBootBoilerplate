@@ -81,34 +81,34 @@ Headers:
 Key: Authorization
 Value: Bearer <JWT_TOKEN>
 ### Project Structure
-src/main/java/com/example/SpringBootBoilerplate
-controller: Contains REST controllers.
-JwtAuthenticationController.java
-model: Contains entity classes.
-User.java
-repository: Contains repository interfaces.
-UserRepository.java
-security: Contains security-related classes.
-JwtAuthenticationEntryPoint.java
-JwtRequestFilter.java
-JwtTokenUtil.java
-service: Contains service classes.
-JwtUserDetailsService.java
-config: Contains configuration classes.
+src/main/java/com/example/SpringBootBoilerplate\
+controller: Contains REST controllers.\
+JwtAuthenticationController.java\
+model: Contains entity classes.\
+User.java\
+repository: Contains repository interfaces.\
+UserRepository.java\
+security: Contains security-related classes.\
+JwtAuthenticationEntryPoint.java\
+JwtRequestFilter.java\
+JwtTokenUtil.java\
+service: Contains service classes.\
+JwtUserDetailsService.java\
+config: Contains configuration classes.\
 SecurityConfig.java
 ### Key Classes
-JwtAuthenticationController: Manages user authentication and registration.
-JwtRequestFilter: Filters incoming requests to validate JWT tokens.
-JwtTokenUtil: Utility class for handling JWT operations.
-SecurityConfig: Configures Spring Security to use JWT for securing endpoints.
+JwtAuthenticationController: Manages user authentication and registration.\
+JwtRequestFilter: Filters incoming requests to validate JWT tokens.\
+JwtTokenUtil: Utility class for handling JWT operations.\
+SecurityConfig: Configures Spring Security to use JWT for securing endpoints.\
 JwtUserDetailsService: Implements user details retrieval and user registration logic.
 ### Dependencies
-Spring Boot Starter Web
-Spring Boot Starter Security
-Spring Boot Starter Data JPA
-Spring Boot Starter Validation
-Spring Boot Starter Test
-MySQL Connector
+Spring Boot Starter Web\
+Spring Boot Starter Security\
+Spring Boot Starter Data JPA\
+Spring Boot Starter Validation\
+Spring Boot Starter Test\
+MySQL Connector\
 Spring Security JWT
 ## Authors
 Francesco Spata
